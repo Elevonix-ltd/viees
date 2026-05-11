@@ -20,7 +20,7 @@ export default function Navbar() {
           <span /><span /><span />
         </button>
         <Link href="/" className="logo-circle" aria-label="VIEES Home">
-          <img src="/logo.png" alt="VIEES logo" width={36} height={36} />
+          <svg viewBox="0 0 100 100" style={{width:"100%",height:"100%"}}><defs><linearGradient id="vg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#FF6B2B"/><stop offset="100%" stopColor="#FF1F78"/></linearGradient></defs><text x="50" y="72" textAnchor="middle" fontSize="72" fontWeight="900" fill="url(#vg)" fontFamily="Georgia,serif">V</text></svg>} />
         </Link>
         <div className="navbar-right">
           <Link href="/create" className="write-btn">Write</Link>
@@ -30,7 +30,7 @@ export default function Navbar() {
       <aside className={`drawer ${open ? "open" : ""}`}>
         <div className="drawer-head">
           <div className="logo-circle">
-            <img src="/logo.png" alt="VIEES" width={36} height={36} />
+            <svg viewBox="0 0 100 100" style={{width:"100%",height:"100%"}}><defs><linearGradient id="vg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#FF6B2B"/><stop offset="100%" stopColor="#FF1F78"/></linearGradient></defs><text x="50" y="72" textAnchor="middle" fontSize="72" fontWeight="900" fill="url(#vg)" fontFamily="Georgia,serif">V</text></svg>
           </div>
           <div>
             <div className="drawer-brand">VIEES</div>
